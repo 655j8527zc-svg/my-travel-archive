@@ -15,3 +15,11 @@ body,button,input,textarea,select{font-family:'Apple SD Gothic Neo','Noto Sans K
 .viewer-actions{display:flex;justify-content:center;align-items:center;gap:5px;flex:1;min-width:0}
 .viewer-actions button{font-size:12px;white-space:nowrap;line-height:1.25;padding:11px 7px;min-width:0;border:1px solid #555;border-radius:2px;letter-spacing:-.03em}
 @media(max-width:370px){.viewer-actions button{font-size:11px;padding:10px 5px}}
+
+/* v0.1.9: quiet monochrome settings icon and native iOS date selector */
+.settings-svg{width:23px;height:23px;display:block;stroke:currentColor}
+.travel-date-overlay{position:fixed;inset:0;z-index:99999;background:rgba(29,28,26,.44);display:flex;align-items:center;justify-content:center;padding:22px;box-sizing:border-box}
+.travel-date-panel{width:min(100%,420px);box-sizing:border-box;background:#FAF9F6;color:#292929;padding:28px 24px 22px;border-radius:15px;box-shadow:0 16px 65px #0002}
+.date-panel-title{font-size:36px;margin:9px 0 10px;font-weight:400}.date-panel-hint{font-size:13px;color:#777;margin:0 0 24px}.date-panel-label{display:block;font-size:13px;color:#777;margin-bottom:10px}
+#travelDateInput{display:block;width:100%;box-sizing:border-box;background:white;border:1px solid #D6D2CA;border-radius:6px;padding:14px 12px;min-height:58px;font-size:20px;color:#292929;font-family:inherit;-webkit-appearance:auto;appearance:auto}
+.date-panel-actions{display:flex;align-items:center;justify-content:flex-end;gap:13px;margin-top:23px;flex-wrap:wrap}.date-panel-actions button{border:1px solid #D6D2CA;background:transparent;color:#292929;border-radius:4px;padding:10px 12px;font:inherit;font-size:13px}.date-panel-actions .date-save{background:#292929;color:#fff;border-color:#292929}
