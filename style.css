@@ -32,3 +32,8 @@ body,button,input,textarea,select{font-family:'Apple SD Gothic Neo','Noto Sans K
 
 /* v0.2.3: text-only map link cards */
 .place-card{min-height:88px;align-items:center;gap:8px;background:#FAF9F6}.place-card-copy{padding:15px 16px;gap:6px}.place-card-copy strong{font-size:15px}.place-card-arrow{flex:0 0 auto;padding-right:16px;font-size:20px;font-weight:300;color:#899184}.place-card-link{font-size:11px}.place-card-thumb{display:none}
+
+/* v0.2.5: prevent iOS auto-zoom when focusing editable controls. Keep pinch zoom available. */
+@supports (-webkit-touch-callout: none) {
+  input, textarea, select, .field input, .field textarea, .field select, .place-panel input { font-size:16px; }
+}
