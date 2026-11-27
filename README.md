@@ -1,3 +1,2 @@
-My Travel Archive v0.1.6. Upload all files to the repository root. Existing IndexedDB data is not changed. Back up before any major updates.
-
-v0.2.2: Best-effort metadata preview via Microlink public API. Google/Naver links may not expose image/address/description. No API key; third-party service receives pasted URLs. Existing IndexedDB unchanged.
+v0.2.9 Backup Center
+기존 저장소에 모든 파일을 덮어쓰세요. DB 이름 및 복원 형식 유지. 전체/여행별 ZIP 60MB 제한, 분할 목표 20MB. 분할 ZIP은 각각 저장하고 각각 복원하세요. 실제 iPhone 테스트 필요.
